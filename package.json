@@ -1,0 +1,28 @@
+{
+  "name": "Hello-Microverse",
+  "version": "1.0.0",
+  "description": "This is a Hello World excercise, with no complex coding. my goal here is to master all of the tools and best practices learned in previous microverse exercise like github flow and linters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harlexkhal/Hello-Microverse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harlexkhal/Hello-Microverse/issues"
+  },
+  "homepage": "https://github.com/harlexkhal/Hello-Microverse#readme",
+  "devDependencies": {
+    "hint": "^6.1.9",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {}
+}
