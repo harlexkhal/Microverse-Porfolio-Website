@@ -24,7 +24,7 @@ The basic requirements for building the executable are:
 
 #### Cloning the project
 ```
-git clone  https://github.com/harlexkhal/Hello-Microverse <Your-Build-Directory>
+git clone  https://github.com/harlexkhal/Microverse-Porfolio-Website <Your-Build-Directory>
 ```
 
 ## Getting packages and debuging with Stylelint
