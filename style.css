@@ -213,6 +213,7 @@ ul {
   border-radius: 8px;
   font-weight: 500;
   font-size: 12px;
+  margin-right: 10px;
   line-height: 16px;
   color: #6070ff;
   background: #ebebff;
@@ -249,11 +250,25 @@ ul {
   border-radius: 100%;
 }
 
+.closed {
+  display: none;
+}
+
 .view_project_btn:active::after {
   padding: 0;
   margin: 0;
   opacity: 1;
   transition: 0s;
+}
+
+.view_project_btn:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.view_project_btn:active {
+  background-color: #172b4d;
+  color: white;
 }
 
 .about_container {
@@ -301,6 +316,16 @@ ul {
   margin: 0;
   opacity: 1;
   transition: 0s;
+}
+
+.resume_btn:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.resume_btn:active {
+  background-color: #172b4d;
+  color: white;
 }
 
 .skills {
@@ -358,4 +383,9 @@ ul {
   justify-content: space-between;
   padding: 0 40px 23px 0;
   width: 300px;
+}
+
+.tags_flex {
+  display: flex;
+  margin-left: -40px;
 }
