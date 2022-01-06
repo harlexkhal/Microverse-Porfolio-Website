@@ -3,6 +3,12 @@
 > This is a Mobile View Portfolio Skeleton
 
 ![screenshot](images/sample.png)
+![screenshot](images/sample2.png)
+![screenshot](images/sample3.png)
+![screenshot](images/sample4.png)
+![screenshot](images/sample5.png)
+![screenshot](images/sample6.png)
+![screenshot](images/sample7.png)
 
 My goal here is to Build a personal portfolio site from scratch.
 
@@ -54,4 +60,4 @@ All source code files are licensed under the permissive zlib license
 (http://opensource.org/licenses/Zlib) unless marked differently in a particular folder/file.
 
 ## Author
-* **Alexander Oguzie-Ibeh** - [github](https://github.com/harlexkhal), [twitter](https://twitter.com/harlexkhal)
+* **Alexander Oguzie-Ibeh** - [github](https://github.com/harlexkhal), [linkedin](https://www.linkedin.com/in/alexander-oguzie-ibeh-776814164), [twitter](https://twitter.com/harlexkhal)
