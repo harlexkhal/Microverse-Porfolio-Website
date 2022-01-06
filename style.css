@@ -236,6 +236,7 @@ ul {
 }
 
 .view_project_btn::after {
+  content: "";
   background: #6070ff;
   display: block;
   position: absolute;
