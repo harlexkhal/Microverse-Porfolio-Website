@@ -459,6 +459,24 @@ select {
   line-height: 28px;
 }
 
+input[type=email],
+select {
+  width: 350px;
+  padding: 12px;
+  margin-left: -35px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+
 label {
   margin-left: -35px;
   font-family: 'Poppins', sans-serif;
