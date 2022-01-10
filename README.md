@@ -9,6 +9,7 @@
 ![screenshot](images/sample5.png)
 ![screenshot](images/sample6.png)
 ![screenshot](images/sample7.png)
+![screenshot](images/samplex.png)
 
 My goal here is to Build a personal portfolio site from scratch.
 
