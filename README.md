@@ -4,7 +4,7 @@
 
 ![screenshot](images/sample.png)
 
-My goal here is to Build a personal portfolio site from scratch, with focus on a mobile first design. take a peak at what i'v build [Live Demo](https://harlexkhal.github.io/Microverse-Porfolio-Website/). 😊
+My goal here is to Build a personal portfolio site from scratch, with focus on a mobile first design. take a peak at what i'v built [Live Demo](https://harlexkhal.github.io/Microverse-Porfolio-Website/). 😊
 
 ## Built With
 
