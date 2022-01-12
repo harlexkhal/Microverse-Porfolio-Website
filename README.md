@@ -6,6 +6,12 @@
 
 My goal here is to Build a personal portfolio site from scratch, with focus on a mobile first design. take a peak at what i'v built [Live Demo](https://harlexkhal.github.io/Microverse-Porfolio-Website/). 😊
 
+### Features implemented so far are:
+* Integration of style linters for CSS, web linters for html & Lighthouse for page optimization testing
+* Responsive mobile view and web view design using css media-queries, flex-box, and grids
+* Integration of formspree for submission of contact details in contact section
+* Launched and deployed to github pages
+
 ## Built With
 
 - Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).

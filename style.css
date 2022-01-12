@@ -204,6 +204,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
+  margin-left: -10px;
   line-height: 24px;
   color: #344563;
 }
@@ -214,7 +215,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 16px 0 29px 0;
+  margin: 16px 0 29px -10px;
 }
 
 .project_tag {
@@ -243,6 +244,7 @@ ul {
   font-weight: 500;
   line-height: 24px;
   background-color: #fff;
+  margin-left: -10px;
 }
 
 .view_project_btn::after {
@@ -570,7 +572,7 @@ textarea {
 }
 
 .about_myself .box4 {
-  padding-left: 50px;
+  padding-left: 48px;
 }
 
 .desktop_nav {
@@ -625,7 +627,7 @@ textarea {
   }
 
   .box1 {
-    width: 380px;
+    width: 400px;
     font-size: 48px;
     line-height: 60px;
   }
@@ -721,9 +723,9 @@ textarea {
   .skills_dropdown_desc {
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     border-radius: 8px;
-    margin-left: -320px;
+    margin-left: -77px;
     padding: 9px 30px 0 80px;
   }
 
@@ -732,6 +734,7 @@ textarea {
     height: 100px;
     margin-left: 0;
     margin-right: 10px;
+    padding: 20px;
     flex-direction: column;
   }
 
