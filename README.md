@@ -1,17 +1,10 @@
-# Hello-Microverse
+# Module-1 Portfolio page
 
-> This is a Mobile View Portfolio Skeleton
+> This is a complete version of my portfolio page project i built and completed on the second week of the first module while learning web-development at microverse.
 
 ![screenshot](images/sample.png)
-![screenshot](images/sample2.png)
-![screenshot](images/sample3.png)
-![screenshot](images/sample4.png)
-![screenshot](images/sample5.png)
-![screenshot](images/sample6.png)
-![screenshot](images/sample7.png)
-![screenshot](images/samplex.png)
 
-My goal here is to Build a personal portfolio site from scratch.
+My goal here is to Build a personal portfolio site from scratch, with focus on a mobile first design. take a peak at what i'v build [Live Demo](https://harlexkhal.github.io/Microverse-Porfolio-Website/). 😊
 
 ## Built With
 

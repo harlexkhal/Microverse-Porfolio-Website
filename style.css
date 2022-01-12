@@ -63,7 +63,7 @@ ul {
 }
 
 .box1 {
-  width: 250px;
+  width: 300px;
   margin-top: 20%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -81,6 +81,7 @@ ul {
 .box2 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  width: 85%;
   font-weight: 400;
   line-height: 24px;
   font-size: 16px;
@@ -208,6 +209,8 @@ ul {
 }
 
 .project_tags_container {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -247,17 +250,12 @@ ul {
   background: #6070ff;
   display: block;
   position: absolute;
-  padding-top: 30%;
-  padding-left: 30%;
+  padding: 20px;
   margin-left: -20px;
   margin-top: -12%;
   opacity: 0;
   transition: all 0.8s;
   border-radius: 100%;
-}
-
-.closed {
-  display: none;
 }
 
 .view_project_btn:active::after {
@@ -275,6 +273,10 @@ ul {
 .view_project_btn:active {
   background-color: #172b4d;
   color: white;
+}
+
+.closed {
+  display: none !important;
 }
 
 .about_container {
@@ -299,7 +301,7 @@ ul {
   font-weight: 500;
   line-height: 24px;
   background-color: #fff;
-  margin-left: 24px;
+  margin-left: 50px;
 }
 
 .resume_btn::after {
@@ -307,8 +309,7 @@ ul {
   background: #6070ff;
   display: block;
   position: absolute;
-  padding-top: 30%;
-  padding-left: 30%;
+  padding: 20px;
   margin-left: -20px;
   margin-top: -12%;
   opacity: 0;
@@ -341,6 +342,8 @@ ul {
 
 .skills_dropdown {
   display: flex;
+  width: 90%;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 23px 40px 23px 0;
@@ -356,15 +359,19 @@ ul {
 }
 
 .skills_dropdown_desc {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   border-radius: 8px;
   margin: 12px;
-  padding: 9px 12px;
+  padding: 9px 30px 0 20px;
 }
 
 .skills_desc_li {
   display: flex;
+  width: 100%;
+  flex-direction: row;
   align-items: flex-start;
   margin-left: -37px;
   margin-bottom: 10px;
@@ -443,9 +450,8 @@ ul {
 
 input[type=text],
 select {
-  width: 350px;
+  width: 100%;
   padding: 12px;
-  margin-left: -35px;
   margin-top: 10px;
   margin-bottom: 8px;
   display: flex;
@@ -461,9 +467,8 @@ select {
 
 input[type=email],
 select {
-  width: 350px;
+  width: 100%;
   padding: 12px;
-  margin-left: -35px;
   margin-top: 10px;
   margin-bottom: 8px;
   display: flex;
@@ -478,7 +483,6 @@ select {
 }
 
 label {
-  margin-left: -35px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -488,7 +492,7 @@ label {
 }
 
 textarea {
-  width: 350px;
+  width: 100%;
   height: 150px;
   padding: 12px;
   box-sizing: border-box;
@@ -497,7 +501,6 @@ textarea {
   border: 2px solid #ccc;
   border-radius: 8px;
   background-color: #fff;
-  margin-left: -35px;
   font-weight: 500;
   font-size: 17px;
   line-height: 20px;
@@ -507,7 +510,6 @@ textarea {
 .submit_btn {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  margin-left: -35px;
   width: 170px;
   height: 48px;
   border-radius: 8px;
@@ -550,4 +552,209 @@ textarea {
 .submit_btn:active {
   background-color: #172b4d;
   color: white;
+}
+
+.about_myself .box1 {
+  width: 40px;
+  padding-left: 90px;
+}
+
+.about_myself .box2 {
+  width: 80%;
+  padding-left: 50px;
+  padding-right: 200px;
+}
+
+.about_myself .box3 {
+  padding-left: 50px;
+}
+
+.about_myself .box4 {
+  padding-left: 50px;
+}
+
+.desktop_nav {
+  display: none;
+}
+
+.desk_nav_info {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
+@media screen and (min-width: 992px) {
+  .desktop_nav {
+    display: flex;
+    width: 10%;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+  }
+
+  .desktop_nav_container {
+    display: flex;
+  }
+
+  .desk_nav_li {
+    margin-right: 32px;
+  }
+
+  .logo img {
+    width: 30%;
+  }
+
+  .toggle {
+    display: none;
+  }
+
+  .main_container {
+    width: 105%;
+    background-image: url("images/Desktop/headerbackground.png");
+    background-size: 90%;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 150px;
+    padding-bottom: 150px;
+    border-bottom-left-radius: 160px;
+  }
+
+  .box1 {
+    width: 380px;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .box2 {
+    width: 75%;
+    line-height: 28px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .socials {
+    width: 30%;
+    margin-right: 10px;
+  }
+
+  .project {
+    padding: 20px 16px 24px 16px;
+    margin-right: 160px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 16px;
+    border: 1px solid #dfe1e6;
+    background-color: #fff;
+  }
+
+  .reverse_row {
+    flex-direction: row-reverse !important;
+  }
+
+  .project_description {
+    padding: 48px;
+  }
+
+  .project img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .project_title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+  }
+
+  .project_title_II {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .job_title_info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .project_full_desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .about_container {
+    flex-direction: row;
+    border-top-right-radius: 80px;
+    background-color: #fff;
+  }
+
+  .about_myself {
+    width: 40%;
+    margin-top: -110px;
+    padding: 48px;
+    margin-left: 100px;
+  }
+
+  .about_myself .box1 {
+    margin-left: 10px;
+  }
+
+  .about_myself .box4 .socials {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .about_myskills {
+    width: 60%;
+  }
+
+  .skills_dropdown_desc {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 8px;
+    margin-left: -320px;
+    padding: 9px 30px 0 80px;
+  }
+
+  .skills_desc_li {
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
+    margin-right: 10px;
+    flex-direction: column;
+  }
+
+  .skills_dropdown {
+    width: 70%;
+  }
+
+  .closed {
+    display: none;
+  }
+
+  .contact__container {
+    width: 40%;
+  }
+
+  .form_li_submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact {
+    background-image: url("images/Desktop/contactbackground.png");
+  }
 }
