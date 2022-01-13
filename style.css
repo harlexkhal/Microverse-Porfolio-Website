@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f7f7f9;
   overflow-x: hidden;
@@ -14,6 +18,7 @@ ul {
 }
 
 .nav_container {
+  width: 100%;
   display: flex;
   margin-left: -25px;
   margin-top: -8px;
