@@ -37,6 +37,13 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: rotation 5s;
+}
+
+@keyframes rotation {
+  50% {
+    transform: rotate(360deg);
+  }
 }
 
 .logo img {
@@ -70,7 +77,7 @@ ul {
 .box1 {
   width: 300px;
   margin-top: 20%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -84,7 +91,7 @@ ul {
 }
 
 .box2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   width: 85%;
   font-weight: 400;
@@ -100,7 +107,7 @@ ul {
 }
 
 .box3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
@@ -157,7 +164,7 @@ ul {
 }
 
 .project_title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   margin-top: -10px;
   margin-left: -12px;
@@ -176,7 +183,7 @@ ul {
 }
 
 .project_title_II {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   margin-left: -8px;
@@ -200,12 +207,12 @@ ul {
 }
 
 .job_title_info::before {
-  content: url('images/Counter.png');
+  content: url("images/Counter.png");
   margin-right: 10px;
 }
 
 .project_full_desc {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -215,7 +222,7 @@ ul {
 }
 
 .project_tags_container {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   display: flex;
   flex-wrap: wrap;
@@ -232,12 +239,12 @@ ul {
   line-height: 16px;
   color: #6070ff;
   background: #ebebff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
 }
 
 .view_project_btn {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   width: 124px;
   height: 48px;
@@ -250,6 +257,7 @@ ul {
   line-height: 24px;
   background-color: #fff;
   margin-left: -10px;
+  transition: all 0.5s ease-in-out;
 }
 
 .view_project_btn::after {
@@ -275,6 +283,7 @@ ul {
 .view_project_btn:hover {
   background-color: #6070ff;
   color: white;
+  transform: scale(1.1);
 }
 
 .view_project_btn:active {
@@ -296,7 +305,7 @@ ul {
 }
 
 .resume_btn {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   width: 170px;
   height: 48px;
@@ -357,7 +366,7 @@ ul {
 }
 
 .skills_dropdown_title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -387,7 +396,7 @@ ul {
 }
 
 .skills_desc_li_title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -435,7 +444,7 @@ ul {
 
 .contact_header {
   margin-top: 140px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #fff;
   text-align: center;
@@ -445,7 +454,7 @@ ul {
 }
 
 .contact_description {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #ebebff;
   text-align: center;
@@ -455,7 +464,7 @@ ul {
   line-height: 28px;
 }
 
-input[type=text],
+input[type="text"],
 select {
   width: 100%;
   padding: 12px;
@@ -465,14 +474,14 @@ select {
   border: 1px solid #ccc;
   border-radius: 8px;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
 }
 
-input[type=email],
+input[type="email"],
 select {
   width: 100%;
   padding: 12px;
@@ -482,7 +491,7 @@ select {
   border: 1px solid #ccc;
   border-radius: 8px;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -490,7 +499,7 @@ select {
 }
 
 label {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -503,7 +512,7 @@ textarea {
   height: 150px;
   padding: 12px;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   border: 2px solid #ccc;
   border-radius: 8px;
@@ -515,7 +524,7 @@ textarea {
 }
 
 .submit_btn {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   width: 170px;
   height: 48px;
@@ -585,7 +594,7 @@ textarea {
 }
 
 .desk_nav_info {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   text-decoration: none;
   font-weight: 500;
