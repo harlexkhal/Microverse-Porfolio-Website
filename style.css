@@ -257,6 +257,7 @@ ul {
   line-height: 24px;
   background-color: #fff;
   margin-left: -10px;
+  transition: all 0.5s ease-in-out;
 }
 
 .view_project_btn::after {
@@ -282,7 +283,7 @@ ul {
 .view_project_btn:hover {
   background-color: #6070ff;
   color: white;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .view_project_btn:active {
