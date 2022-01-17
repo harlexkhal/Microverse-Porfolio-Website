@@ -10,7 +10,8 @@ My goal here is to Build a personal portfolio site from scratch, with focus on a
 * Integration of style linters for CSS, web linters for html & Lighthouse for page optimization testing
 * Responsive mobile view and web view design using css media-queries, flex-box, and grids
 * Integration of formspree for submission of contact details in contact section
-* Launched and deployed to github pages
+* Interactive CSS animations
+* Launched and deployed to github pages ([Live Demo](https://harlexkhal.github.io/Microverse-Porfolio-Website/))
 
 ## Built With
 
