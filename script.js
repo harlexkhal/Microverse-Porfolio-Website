@@ -1,4 +1,4 @@
-const hamburgerMenuicon = document.querySelector('.hamburger_menu_icon');
+const hamburgerMenuIcon = document.querySelector('.hamburger_menu_icon');
 const sideNavigationBar = document.querySelector('.mobile_side_nav');
 const menuLinks = document.querySelectorAll('.menu_link');
 
@@ -11,6 +11,6 @@ const closeMenu = () => {
 };
 
 hamburgerMenuIcon.addEventListener('click', openMenu);
-menuLinks.forEach((menu_link) => {
+menuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', closeMenu);
 });
