@@ -12,12 +12,14 @@ My goal here is to Build a personal portfolio site from scratch, with focus on a
 * Integration of formspree for submission of contact details in contact section
 * Interactive CSS animations
 * Launched and deployed to github pages ([Live Demo](https://harlexkhal.github.io/Microverse-Porfolio-Website/))
+* Implemented navigation menu on mobile with JavaScript events
 
 ## Built With
 
 - Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
 - Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 
 To get a local copy up and running follow these simple example steps.
 
@@ -41,6 +43,16 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 ##### For validation detection using Stylelint Run
 ```
 npx stylelint "**/*.{css,scss}"
+```
+##### from parent source directory
+
+## Getting packages and debuging with ESlint
+```
+npm install npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
+##### For validation detection using Stylelint Run
+```
+npx eslint .
 ```
 ##### from parent source directory
 
