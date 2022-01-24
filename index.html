@@ -30,7 +30,13 @@
           <img src="images/MyLogo.png" alt="Logo" />
         </a>
         <nav class="toggle">
-          <img src="images/Union.png" alt="hamburger menu" />
+          <img src="images/Union.png" alt="hamburger menu" class="hamburger_menu_icon"/>
+          <ul class="mobile_side_nav">
+            <li class="menu_link closebtn"><a href="javascript:void(0)">&times;</a></li>
+            <li class="menu_link"><a href="#Portfolio" class="menulink">Portfolio</a></li>
+            <li class="menu_link"><a href="#About">About</a></li>
+            <li class="menu_link"><a href="#Contact">Contact</a></li>
+          </ul>
         </nav>
         <nav class="desktop_nav">
           <ul class="desktop_nav_container">
@@ -47,7 +53,7 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main  class="parent_main">
       <section class="main_container">
         <h1 class="box1">I'm Alexander Glad to see you!</h1>
         <p class="box2">
@@ -353,5 +359,6 @@
         </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
