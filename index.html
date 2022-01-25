@@ -118,7 +118,7 @@
                   <li class="project_tag">javaScript</li>
                 </ul>
               </div>
-              <button type="button" class="view_project_btn">
+              <button type="button" class="view_project_btn proj_1">
                 See Project
               </button>
             </div>
@@ -145,7 +145,7 @@
                   <li class="project_tag">javaScript</li>
                 </ul>
               </div>
-              <button type="button" class="view_project_btn">
+              <button type="button" class="view_project_btn proj_2">
                 See Project
               </button>
             </div>
@@ -172,7 +172,7 @@
                   <li class="project_tag">javaScript</li>
                 </ul>
               </div>
-              <button type="button" class="view_project_btn">
+              <button type="button" class="view_project_btn proj_3">
                 See Project
               </button>
             </div>
@@ -199,7 +199,7 @@
                   <li class="project_tag">javaScript</li>
                 </ul>
               </div>
-              <button type="button" class="view_project_btn">
+              <button type="button" class="view_project_btn proj_4">
                 See Project
               </button>
             </div>
@@ -359,6 +359,54 @@
         </div>
       </section>
     </main>
+    <div class="modal vanish">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 class="project_title open_view_proj_title">
+          <!--Dynamic DOM content Name-->Project Name
+        </h2>
+        <div class="project_info open_view_proj_info">
+          <p class="project_title_II">CANOPY</p>
+          <ul class="project_job_title_info_container">
+            <li class="job_title_info">Back End Dev</li>
+            <li class="job_title_info">2015</li>
+          </ul>
+        </div>
+        <div class="view_img_container">
+          <img src="#" class="view_proj_img" alt="Project Image 1" />
+        </div>
+        <div class="proj_view_desc_opened project_description">
+          <p class="project_full_desc_opened project_full_desc">
+           <!--Dynamic DOM Content Description-->
+          </p>
+          <div class="modal_view_desc">
+            <div class="project_tags_container project_tags_container_opened">
+              <ul class="tags_flex open_view_tag">
+                <!--Dynamic DOM technology list-->
+              </ul>
+            </div>
+            <div class="btn_containers">
+               <ul class="btn_child_flex">
+                <li class="btn_li">
+                  <form class= "btn_see_live" action="#">
+                    <button type="button" class="view_project_btn view_btn_1">
+                      See live <img src="images/see_live_btn.png" alt="hamburger menu" class="btn_icon"/>
+                    </button>
+                  </form>>
+                </li>
+                <li class="btn_li">
+                  <form class="btn_view_src" action="#">
+                    <button type="button" class="view_project_btn">
+                      See Source <img src="images/see_source_btn.png" alt="hamburger menu" class="btn_icon"/>
+                    </button>
+                  </form>
+                </li>
+               </ul>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
