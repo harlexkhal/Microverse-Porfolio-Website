@@ -34,6 +34,9 @@ const descriptionDom = document.querySelector('.project_full_desc_opened');
 const technologiesDom = document.querySelector('.open_view_tag');
 const sourceLinkDom = document.querySelector('.btn_view_src');
 const demoLinkDom = document.querySelector('.btn_see_live');
+const companyNameModal = document.querySelector('.modal_company');
+const roleNameModal = document.querySelector('.modal_role');
+const yearDateModal = document.querySelector('.modal_year');
 const projectImageLinkDom = document.querySelector('.view_proj_img');
 
 const projectsArray = [
@@ -119,6 +122,9 @@ const projectsArray = [
   for (let i = 0; i < projectsArray.length; i += 1) {
     document.querySelector(`.proj_${i + 1}`).addEventListener('click', () => {
       nameDom.innerHTML = projectsArray[i].name;
+      companyNameModal.innerHTML = projectsArray[i].company;
+      roleNameModal.innerHTML = projectsArray[i].role;
+      yearDateModal.innerHTML = projectsArray[i].year;
       descriptionDom.innerHTML = projectsArray[i].description;
       projectImageLinkDom.src = projectsArray[i].imageLink;
       sourceLinkDom.action = projectsArray[i].sourceLink;
