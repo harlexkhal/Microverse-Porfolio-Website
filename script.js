@@ -164,17 +164,17 @@ contactForm.addEventListener('submit', (event) => {
 });
 
 // local storage
-form.addEventListener('input', () => {
+contactForm.addEventListener('input', () => {
   const formInfo = {
-    name: document.querySelector('.input1').value,
-    email: document.querySelector('.input2').value,
-    message: document.querySelector('.input3').value,
+    name: document.querySelector('.contact_name').value,
+    email: document.querySelector('.email_address').value,
+    message: document.querySelector('.contact_message').value,
   };
 
   localStorage.setItem('contactForm', JSON.stringify(formInfo));
 });
 
 const formObj = JSON.parse(localStorage.getItem('contactForm'));
-document.querySelector('.input1').value = formObj.name;
-document.querySelector('.input2').value = formObj.email;
-document.querySelector('.input3').value = formObj.message;
+document.querySelector('.contact_name').value = formObj.name;
+document.querySelector('.email_address').value = formObj.email;
+document.querySelector('.contact_message').value = formObj.message;
