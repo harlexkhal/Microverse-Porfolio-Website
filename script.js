@@ -158,7 +158,7 @@ contactForm.addEventListener('submit', (event) => {
   const strInput = emailInput.value;
   if (/[A-Z]/.test(strInput)) {
     validationMessage.innerHTML = 'Your email address should not contain upper case letters';
-    
+    validationMessage.classList.add('shake');
     event.preventDefault();
   }
 });
