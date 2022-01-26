@@ -55,7 +55,7 @@ const projectsArray = [
     name: 'Uber Navigation',
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     imageLink: 'images/project2.png',
-    technologies: ['html', 'css', 'javascript'],
+    technologies: ['html', 'css', 'javascript', 'Ruby on rails'],
     role: 'Uber',
     company: 'Lead Developer',
     year: '2018',
@@ -77,7 +77,7 @@ const projectsArray = [
     name: 'Tonic',
     description: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     imageLink: 'images/project4.png',
-    technologies: ['html', 'css', 'javascript'],
+    technologies: ['html', 'css', 'javascript', 'Ruby on rails'],
     role: 'Back End Dev',
     company: 'Canopy',
     year: '2015',
@@ -131,7 +131,7 @@ const projectsArray = [
       demoLinkDom.action = projectsArray[i].demoLink;
       technologiesDom.innerHTML = '';
       for (let j = 0; j < projectsArray[i].technologies.length; j += 1) {
-        technologiesDom.innerHTML = `${technologiesDom.innerHTML}<li class="project_tag">${projectsArray[j].technologies[j]}</li>`;
+        technologiesDom.innerHTML = `${technologiesDom.innerHTML}<li class="project_tag">${projectsArray[i].technologies[j]}</li>`;
       }
       popupModal.classList.remove('vanish');
       popupModal.classList.add('show');
